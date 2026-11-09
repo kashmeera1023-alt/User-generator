@@ -1,0 +1,47 @@
+body {
+    background-color: #f1f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    color: #1d3557;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.user-card {
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    height: 100%;
+}
+
+.user-card img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #dbeafe;
+}
+
+.user-card h5 {
+    color: #1d3557;
+    font-weight: bold;
+}
+
+.user-card p {
+    color: #555;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+button {
+    border-radius: 8px !important;
+}
